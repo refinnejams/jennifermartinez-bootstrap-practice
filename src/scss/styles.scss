@@ -9,4 +9,64 @@
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+.jumbotron {
+    background-image: url("../img/pirate-ship.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+h1, h4 {
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    }
+
+}
+
+.navbar {
+    a .active {
+   font-weight: bold; }
+
+   a:hover {
+       text-decoration: underline;
+   }
+}
+
+.row {
+    h1 {
+        font-family: 'Pacifico', sans-serif;
+        text-align: left;
+    }
+
+    h2 {
+        font-family: 'Amiri', serif;
+    }
+
+    h3 {
+        font-family: 'Abel', sans-serif;
+    }
+
+    p {
+        font-family: 'Amiri', serif;
+    }
+
+    h6 {
+        font-family: 'Abel', sans-serif;
+        padding-top: 1px;
+    }
+
+    h7 {
+        font-family: 'Amiri', serif;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+      }
+}
+
+
+
+       
 // Import partials here
+@import "footer"
